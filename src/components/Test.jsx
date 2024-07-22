@@ -1,7 +1,7 @@
 import React, {useCallback, useEffect, useMemo, useRef} from 'react';
 
 const Test = () => {
-
+    // const {iniState} = {count: 0}
     // const inputRef = useRef(null)
     //
     // useEffect(() => {
@@ -22,7 +22,7 @@ const Test = () => {
 
     return (
         <div>
-            <input ref={inputRef} type="text" name="" id=""/>
+            <input type="text" name="" id=""/>
         </div>
     );
 };
